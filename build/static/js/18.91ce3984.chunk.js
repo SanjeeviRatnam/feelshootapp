@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-tailwindcss-portfolio"]=this["webpackJsonpreact-tailwindcss-portfolio"]||[]).push([[18],{53:function(t,e,a){"use strict";a.r(e);var r=a(3);e.default=()=>Object(r.jsx)("div",{className:"container mx-auto",children:Object(r.jsx)("div",{className:"text-center text-ternary-dark dark:text-primary-light",children:"Software Apps Page"})})}}]);
-//# sourceMappingURL=18.91ce3984.chunk.js.map
