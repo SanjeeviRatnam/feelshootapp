@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-tailwindcss-portfolio"]=this["webpackJsonpreact-tailwindcss-portfolio"]||[]).push([[7],{58:function(t,s,e){"use strict";e.r(s);e(1);var c=e(5),a=e(3);s.default=()=>{const t=Object(c.n)().state;return t?Object(a.jsxs)("div",{className:"max-w-4xl mx-auto p-6",children:[Object(a.jsx)("h1",{className:"text-4xl font-bold mb-4",children:t.title}),Object(a.jsx)("p",{className:"text-gray-700",children:t.summary})]}):Object(a.jsx)("div",{children:"article not found."})}}}]);
+//# sourceMappingURL=7.e68989a6.chunk.js.map
