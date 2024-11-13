@@ -33,47 +33,47 @@ const quickLinks = [
 	{
 		id: 1,
 		name: 'Services',
-		url: 'services',
+		url: '/services',
 	},
 	{
 		id: 2,
 		name: 'Software Apps',
-		url: 'softwareApps',
+		url: '/softwareApps',
 	},
 	{
 		id: 3,
 		name: 'Entertainment Apps',
-		url: 'entertainmentApps',
+		url: '/entertainmentApps',
 	},
 	{
 		id: 4,
 		name: 'Cloud Services',
-		url: 'cloudservices',
+		url: '/cloudservices',
 	},
 	{
 		id: 5,
 		name: 'Consulting',
-		url: 'consulting',
+		url: '/consulting',
 	},
 	{
 		id: 6,
 		name: 'Marketing',
-		url: 'marketing',
+		url: '/marketing',
 	},
 	{
 		id: 7,
 		name: 'Privacy Policy',
-		url: 'PrivacyPolicy',
+		url: '/PrivacyPolicy',
 	},
 	{
 		id: 8,
 		name: 'Terms & Conditions',
-		url: 'TermsAndConditions',
+		url: '/TermsAndConditions',
 	},
 	{
 		id: 9,
 		name: 'Disclaimer',
-		url: 'Disclaimer',
+		url: '/Disclaimer',
 	},
 ];
 

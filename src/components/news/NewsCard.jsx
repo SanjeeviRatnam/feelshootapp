@@ -2,25 +2,25 @@
 import { Link } from "react-router-dom";
 // import NewsModal from '../NewsModal';
 // import Button from '../reusable/Button';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const NewsCard = ({ article }) => {
-  const [showModal, setShowModal] = useState(false);
+//   const [showModal, setShowModal] = useState(false);
 
   
-function showNewsModal() {
-  if (!showModal) {
-    document
-      .getElementsByTagName('html')[0]
-      .classList.add('overflow-y-hidden');
-    setShowModal(true);
-  } else {
-    document
-      .getElementsByTagName('html')[0]
-      .classList.remove('overflow-y-hidden');
-    setShowModal(false);
-  }
-}
+// function showNewsModal() {
+//   if (!showModal) {
+//     document
+//       .getElementsByTagName('html')[0]
+//       .classList.add('overflow-y-hidden');
+//     setShowModal(true);
+//   } else {
+//     document
+//       .getElementsByTagName('html')[0]
+//       .classList.remove('overflow-y-hidden');
+//     setShowModal(false);
+//   }
+// }
 
   return (
     <div className="bg-white rounded-lg overflow-hidden text-primary-dark dark:text-primary-light">

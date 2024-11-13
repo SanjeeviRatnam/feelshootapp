@@ -44,7 +44,7 @@ const termsAndConditionsData = [
       details: [
         {
           id: 1,
-          details: '1.12 “We”, “we”, “Us”, “us” or “MicroBird” shall mean USR&RU TECHNOLOGIES PRIVATE LIMITED, its affiliates, permitted assigns and partners, and the terms “Our” and “our” shall be construed accordingly; and',
+          details: '1.12 “We”, “we”, “Us”, “us” or “MicroBird” shall mean Feelshoot, its affiliates, permitted assigns and partners, and the terms “Our” and “our” shall be construed accordingly; and',
         },
         {
           id: 2,

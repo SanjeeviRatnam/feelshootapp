@@ -12,7 +12,7 @@ const ProjectSingle = ({ title, category, image, url }) => {
 				delay: 0.15,
 			}}
 		>
-			<Link to={url} aria-label="Single Project">
+			<Link to={url} aria-label={title}>
 				<div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
 					<div>
 						<img

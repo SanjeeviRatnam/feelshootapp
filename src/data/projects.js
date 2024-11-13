@@ -38,7 +38,7 @@ export const projectsData = [
 		title: 'Cloud Services',
 		category: '',
 		img: UIImage2,
-		url: 'services',
+		url: 'cloudservices',
 	},
 	{
 		id: 5,
