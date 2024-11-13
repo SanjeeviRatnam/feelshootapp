@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/feelshootapp/static/css/main.248ebccf.chunk.css",
-    "main.js": "/feelshootapp/static/js/main.e3d7bd46.chunk.js",
-    "main.js.map": "/feelshootapp/static/js/main.e3d7bd46.chunk.js.map",
+    "main.js": "/feelshootapp/static/js/main.e70fc77b.chunk.js",
+    "main.js.map": "/feelshootapp/static/js/main.e70fc77b.chunk.js.map",
     "runtime-main.js": "/feelshootapp/static/js/runtime-main.01b713cb.js",
     "runtime-main.js.map": "/feelshootapp/static/js/runtime-main.01b713cb.js.map",
     "static/js/2.3010f3b8.chunk.js": "/feelshootapp/static/js/2.3010f3b8.chunk.js",
@@ -65,6 +65,6 @@
     "static/js/runtime-main.01b713cb.js",
     "static/js/2.3010f3b8.chunk.js",
     "static/css/main.248ebccf.chunk.css",
-    "static/js/main.e3d7bd46.chunk.js"
+    "static/js/main.e70fc77b.chunk.js"
   ]
 }
