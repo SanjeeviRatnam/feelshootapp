@@ -5,12 +5,13 @@ import {
 } from 'react-icons/fi';
 import { FaTelegram } from 'react-icons/fa';
 import AppFooterCopyright from './AppFooterCopyright';
+import { Link } from 'react-router-dom';
 
 const socialLinks = [
 	{
 		id: 1,
 		icon: <FiFacebook />,
-		url: '/',
+		url: 'https://www.facebook.com/',
 	},
 	{
 		id: 2,
@@ -91,15 +92,15 @@ const AppFooter = () => {
 			  </p>
 			  <ul className="flex gap-4 sm:gap-6 mt-4">
 				{socialLinks.map((social) => (
-				  <a
+				  <Link
 					key={social.id}
-					href={social.url}
+					to={social.url}
 					target="_blank"
 					rel="noopener noreferrer"
 					className="text-2xl"
 				  >
 					{social.icon}
-				  </a>
+				  </Link>
 				))}
 			  </ul>
 			</div>
@@ -110,13 +111,13 @@ const AppFooter = () => {
 			  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 				{quickLinks.map((link) => (
 				  <li key={link.id}>
-					<a
-					  href={link.url}
+					<Link
+					  to={link.url}
 					  rel="noopener noreferrer"
 					  className="text-sm hover:underline"
 					>
 					  {link.name}
-					</a>
+					</Link>
 				  </li>
 				))}
 			  </ul>
