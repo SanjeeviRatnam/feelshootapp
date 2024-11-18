@@ -43,11 +43,11 @@ const SwAppsPage = () => {
         <div className='container mx-auto'>
           <div className="text-ternary-dark dark:text-primary-light">
           <h2 className="text-3xl font-bold mb-8 text-center">Our Software Apps</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8  ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 ">
             {softwareApps.map(app => (
-              <div className="bg-white border border-gray-300 rounded-lg mt-5 p-5" key={app.id} >
+              <div className="bg-white border border-gray-300  rounded-lg mt-5 p-5" key={app.id} >
                 <h3><strong>{app.name}</strong></h3>
-                <p>Category: {app.category}</p>
+                <p className="mt-5">Category: {app.category}</p>
                 <p>{app.description}</p>
                 <p>Version: {app.version}</p>
               </div>

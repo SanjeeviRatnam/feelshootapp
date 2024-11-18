@@ -43,7 +43,7 @@ const NewsPage = () => {
   return (
     <div className="container mx-auto text-primary-dark dark:text-primary-light">
       <h2 className="text-center text-2xl font-bold mb-6">Latest News</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {articles.map((article) => (
           <NewsCard key={article.id} article={article} />
         ))}
